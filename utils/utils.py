@@ -13,15 +13,17 @@ def predict_voice_state(model, voice_sample, voice_feature, num_components):
     state_prediction = model.predict(voice_feature)
     state_length = len(state_prediction)
 
-    print(state_prediction)
-    print("State 0: ", sum(state_prediction==0)/len(state_prediction))
-    print("State 1: ", sum(state_prediction==1)/len(state_prediction))
-    print("State 2: ", sum(state_prediction==2)/len(state_prediction))
+#     print(state_prediction)
+#     print("State 0: ", sum(state_prediction==0)/len(state_prediction))
+#     print("State 1: ", sum(state_prediction==1)/len(state_prediction))
+#     print("State 2: ", sum(state_prediction==2)/len(state_prediction))
 
     # Expand the state prediction from feature vectors to the original
     # voice signals
     # i - index
     # s - state
+#     print("Length of voice signal: ", len(voice_sample))
+#     print("Length of states prediction: ", state_length)
     voice_state = np.zeros((num_components,voice_sample.size))
     for i,s in enumerate(state_prediction):
 
@@ -32,7 +34,7 @@ def predict_voice_state(model, voice_sample, voice_feature, num_components):
             for j in range(1, sample_window):
                 voice_state[s,j] = 1
         # from the second state until the second last state
-        elif i < state_length - 1:
+        elif i > 0 and i < state_length-1:
             for j in range(i*sample_window, i*sample_window+sample_window):
                 voice_state[s,j] = 1
         # last state
@@ -99,7 +101,7 @@ def load_voice_testing(voice, index):
     plt.title("Testing Voice")
     plt.show()
     
-    print(voice_feature)
-    print(length)
+#     print(voice_feature)
+#     print(length)
     
     return voice_sample, voice_feature, length
