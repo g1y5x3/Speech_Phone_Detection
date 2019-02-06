@@ -1,0 +1,11 @@
+!SIL 1.0	sil
+<UNK> 1.0	spn
+again 1.0	AH G EY N
+blue 1.0	B L UW
+dew 1.0	D UW
+my 1.0	M AY
+over 1.0	OW V ER
+shell 1.0	SH EH L
+shimmered 1.0	SH IH M ER D
+shiny 1.0	SH AY N IY
+the 1.0	DH AH

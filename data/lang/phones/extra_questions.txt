@@ -1,0 +1,9 @@
+AH_B AY_B B_B D_B DH_B EH_B ER_B EY_B G_B IH_B IY_B L_B M_B N_B OW_B SH_B UW_B V_B 
+AH_E AY_E B_E D_E DH_E EH_E ER_E EY_E G_E IH_E IY_E L_E M_E N_E OW_E SH_E UW_E V_E 
+AH_I AY_I B_I D_I DH_I EH_I ER_I EY_I G_I IH_I IY_I L_I M_I N_I OW_I SH_I UW_I V_I 
+AH_S AY_S B_S D_S DH_S EH_S ER_S EY_S G_S IH_S IY_S L_S M_S N_S OW_S SH_S UW_S V_S 
+sil spn 
+sil_B spn_B 
+sil_E spn_E 
+sil_I spn_I 
+sil_S spn_S 
