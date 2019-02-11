@@ -1,0 +1,8 @@
+ lattice-align-words data/lang/phones/word_boundary.int exp/tri/final.mdl ark:- ark:- \| \
+    nbest-to-ctm ark:- - \| \
+    utils/int2sym.pl -f 5 data/lang/words.txt \| \
+    $filter_cmd '>' ctm
+
+lattice-1best --acoustic-weight=0.08333 ark:1.lats | \
+      lattice-align-words data/lang/phones/word_boundary.int exp/dir/final.mdl ark:- ark:- | \
+      nbest-to-ctm ark:- 1.ctm

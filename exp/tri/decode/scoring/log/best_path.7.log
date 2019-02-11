@@ -1,0 +1,118 @@
+# lattice-best-path --lm-scale=7 --word-symbol-table=exp/tri/graph/words.txt "ark:gunzip -c exp/tri/decode/lat.*.gz|" ark,t:exp/tri/decode/scoring/7.tra 
+# Started at Tue Jan 29 14:28:26 CST 2019
+#
+lattice-best-path --lm-scale=7 --word-symbol-table=exp/tri/graph/words.txt 'ark:gunzip -c exp/tri/decode/lat.*.gz|' ark,t:exp/tri/decode/scoring/7.tra 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_01, best cost 405.012 + 36378.3 = 36783.3 over 398 frames.
+R040_s1_01 the dew shimmered again shell again again shell 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_02, best cost 265.622 + 36420.7 = 36686.3 over 398 frames.
+R040_s1_02 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_03, best cost 340.041 + 36589.9 = 36929.9 over 398 frames.
+R040_s1_03 the dew shimmered shell again dew over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_04, best cost 247.265 + 35467.9 = 35715.2 over 398 frames.
+R040_s1_04 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_05, best cost 248.458 + 34651.3 = 34899.7 over 398 frames.
+R040_s1_05 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_06, best cost 211.359 + 33830.7 = 34042.1 over 398 frames.
+R040_s1_06 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_07, best cost 241.076 + 33803.1 = 34044.2 over 398 frames.
+R040_s1_07 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_08, best cost 211.57 + 33992.8 = 34204.4 over 398 frames.
+R040_s1_08 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_09, best cost 207.313 + 34175.7 = 34383 over 398 frames.
+R040_s1_09 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_10, best cost 212.722 + 33943.1 = 34155.8 over 398 frames.
+R040_s1_10 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_11, best cost 210.923 + 33381.4 = 33592.3 over 398 frames.
+R040_s1_11 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_12, best cost 241.931 + 34225.7 = 34467.6 over 398 frames.
+R040_s1_12 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_13, best cost 209.941 + 34223.4 = 34433.4 over 398 frames.
+R040_s1_13 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_14, best cost 243.034 + 33316.5 = 33559.5 over 398 frames.
+R040_s1_14 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_15, best cost 207.283 + 32802.6 = 33009.8 over 398 frames.
+R040_s1_15 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_16, best cost 215.421 + 34067.7 = 34283.2 over 398 frames.
+R040_s1_16 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_17, best cost 214.454 + 34224.3 = 34438.7 over 398 frames.
+R040_s1_17 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_18, best cost 212.36 + 33062.7 = 33275 over 398 frames.
+R040_s1_18 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_19, best cost 208.574 + 33581.8 = 33790.4 over 398 frames.
+R040_s1_19 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_20, best cost 244.005 + 33769.6 = 34013.7 over 398 frames.
+R040_s1_20 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_21, best cost 236.79 + 33266.6 = 33503.4 over 398 frames.
+R040_s1_21 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_22, best cost 281.622 + 34573.4 = 34855 over 398 frames.
+R040_s1_22 the dew shimmered over my shiny blue shell again again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_23, best cost 279.564 + 33713.5 = 33993 over 398 frames.
+R040_s1_23 the dew shimmered over my shiny blue shell again again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_24, best cost 208.705 + 33385.7 = 33594.4 over 398 frames.
+R040_s1_24 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_25, best cost 247.486 + 33271.6 = 33519.1 over 398 frames.
+R040_s1_25 the my shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_26, best cost 242.036 + 33752.9 = 33994.9 over 398 frames.
+R040_s1_26 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_27, best cost 204.692 + 33177.1 = 33381.8 over 398 frames.
+R040_s1_27 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_28, best cost 205.561 + 33207.5 = 33413 over 398 frames.
+R040_s1_28 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_29, best cost 207.747 + 33256.6 = 33464.3 over 398 frames.
+R040_s1_29 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_30, best cost 207.898 + 34029 = 34236.9 over 398 frames.
+R040_s1_30 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_31, best cost 223.629 + 33635.7 = 33859.4 over 398 frames.
+R040_s1_31 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_32, best cost 208.131 + 32559.1 = 32767.2 over 398 frames.
+R040_s1_32 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_33, best cost 286.598 + 32810.5 = 33097.1 over 398 frames.
+R040_s1_33 the dew shimmered over my shiny blue shell again again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_34, best cost 267.251 + 35908.3 = 36175.6 over 398 frames.
+R040_s1_34 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_35, best cost 238.065 + 33590.5 = 33828.6 over 398 frames.
+R040_s1_35 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_36, best cost 246.75 + 34303.8 = 34550.5 over 398 frames.
+R040_s1_36 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_37, best cost 237.506 + 34239.2 = 34476.7 over 398 frames.
+R040_s1_37 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_38, best cost 201.653 + 33669.1 = 33870.8 over 398 frames.
+R040_s1_38 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_39, best cost 216.436 + 35809.9 = 36026.3 over 398 frames.
+R040_s1_39 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_40, best cost 254.329 + 34416.6 = 34670.9 over 398 frames.
+R040_s1_40 again the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_41, best cost 245.299 + 34099 = 34344.3 over 398 frames.
+R040_s1_41 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_42, best cost 212.635 + 34930.7 = 35143.4 over 398 frames.
+R040_s1_42 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_43, best cost 204.307 + 34568.6 = 34772.9 over 398 frames.
+R040_s1_43 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_44, best cost 247.85 + 33998 = 34245.8 over 398 frames.
+R040_s1_44 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_45, best cost 203.792 + 34272 = 34475.8 over 398 frames.
+R040_s1_45 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_46, best cost 202.156 + 33259.6 = 33461.7 over 398 frames.
+R040_s1_46 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_47, best cost 239.516 + 33545.3 = 33784.8 over 398 frames.
+R040_s1_47 the dew shimmered over my shiny blue shell again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_48, best cost 211.842 + 34800.3 = 35012.1 over 398 frames.
+R040_s1_48 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_49, best cost 200.89 + 33320.7 = 33521.6 over 398 frames.
+R040_s1_49 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_50, best cost 275.926 + 35395.9 = 35671.8 over 398 frames.
+R040_s1_50 the dew shimmered over my shiny blue shell again again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_51, best cost 204.105 + 33494.7 = 33698.8 over 398 frames.
+R040_s1_51 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_52, best cost 208.483 + 33634.9 = 33843.4 over 398 frames.
+R040_s1_52 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_53, best cost 272.406 + 30617.1 = 30889.6 over 398 frames.
+R040_s1_53 the dew again shell again again again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_54, best cost 221.804 + 33753.5 = 33975.3 over 398 frames.
+R040_s1_54 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:99) For utterance R040_s1_55, best cost 216.453 + 33778.1 = 33994.6 over 398 frames.
+R040_s1_55 the dew shimmered over my shiny blue shell again 
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:124) Overall cost per frame is 86.0129 = 0.587861 [graph] + 85.425 [acoustic] over 21890 frames.
+LOG (lattice-best-path[5.5.145~1-b50a]:main():lattice-best-path.cc:128) Done 55 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Tue Jan 29 14:28:26 CST 2019, elapsed time 0 seconds

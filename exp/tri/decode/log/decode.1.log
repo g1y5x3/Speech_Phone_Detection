@@ -1,0 +1,122 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri/graph/words.txt exp/tri/final.mdl exp/tri/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri/decode/lat.1.gz" 
+# Started at Tue Jan 29 14:28:22 CST 2019
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri/graph/words.txt exp/tri/final.mdl exp/tri/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+R040_s1_01 the dew shimmered again shell again shell 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_01 is -7.75867 over 398 frames.
+R040_s1_02 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_02 is -7.72109 over 398 frames.
+R040_s1_03 the dew shimmered shell again dew over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_03 is -7.78322 over 398 frames.
+R040_s1_04 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_04 is -7.515 over 398 frames.
+R040_s1_05 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_05 is -7.34077 over 398 frames.
+R040_s1_06 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_06 is -7.15931 over 398 frames.
+R040_s1_07 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_07 is -7.1642 over 398 frames.
+R040_s1_08 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_08 is -7.19333 over 398 frames.
+R040_s1_09 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_09 is -7.2301 over 398 frames.
+R040_s1_10 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_10 is -7.18334 over 398 frames.
+R040_s1_11 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_11 is -7.06508 over 398 frames.
+R040_s1_12 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_12 is -7.25299 over 398 frames.
+R040_s1_13 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_13 is -7.24104 over 398 frames.
+R040_s1_14 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_14 is -7.06302 over 398 frames.
+R040_s1_15 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_15 is -6.94258 over 398 frames.
+R040_s1_16 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_16 is -7.21041 over 398 frames.
+R040_s1_17 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_17 is -7.24284 over 398 frames.
+R040_s1_18 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_18 is -6.99886 over 398 frames.
+R040_s1_19 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_19 is -7.10621 over 398 frames.
+R040_s1_20 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_20 is -7.15489 over 398 frames.
+R040_s1_21 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_21 is -7.04948 over 398 frames.
+R040_s1_22 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_22 is -7.33379 over 398 frames.
+R040_s1_23 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_23 is -7.1551 over 398 frames.
+R040_s1_24 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_24 is -7.06519 over 398 frames.
+R040_s1_25 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_25 is -7.05298 over 398 frames.
+R040_s1_26 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_26 is -7.15403 over 398 frames.
+R040_s1_27 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_27 is -7.02007 over 398 frames.
+R040_s1_28 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_28 is -7.02674 over 398 frames.
+R040_s1_29 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_29 is -7.03782 over 398 frames.
+R040_s1_30 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_30 is -7.19958 over 398 frames.
+R040_s1_31 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_31 is -7.1229 over 398 frames.
+R040_s1_32 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_32 is -6.89191 over 398 frames.
+R040_s1_33 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_33 is -6.96977 over 398 frames.
+R040_s1_34 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_34 is -7.61439 over 398 frames.
+R040_s1_35 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_35 is -7.11861 over 398 frames.
+R040_s1_36 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_36 is -7.27107 over 398 frames.
+R040_s1_37 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_37 is -7.25424 over 398 frames.
+R040_s1_38 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_38 is -7.122 over 398 frames.
+R040_s1_39 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_39 is -7.57554 over 398 frames.
+R040_s1_40 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_40 is -7.29045 over 398 frames.
+R040_s1_41 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_41 is -7.22767 over 398 frames.
+R040_s1_42 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_42 is -7.3901 over 398 frames.
+R040_s1_43 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_43 is -7.31128 over 398 frames.
+R040_s1_44 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_44 is -7.20744 over 398 frames.
+R040_s1_45 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_45 is -7.249 over 398 frames.
+R040_s1_46 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_46 is -7.03643 over 398 frames.
+R040_s1_47 the dew shimmered over my shiny blue shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_47 is -7.10965 over 398 frames.
+R040_s1_48 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_48 is -7.36251 over 398 frames.
+R040_s1_49 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_49 is -7.04877 over 398 frames.
+LOG (apply-cmvn[5.5.145~1-b50a]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 55 utterances, errors on 0
+R040_s1_50 the dew shimmered over my shiny blue shell again again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_50 is -7.51022 over 398 frames.
+R040_s1_51 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_51 is -7.08635 over 398 frames.
+R040_s1_52 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_52 is -7.11729 over 398 frames.
+R040_s1_53 the dew again shell again again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_53 is -6.5043 over 398 frames.
+R040_s1_54 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_54 is -7.1469 over 398 frames.
+R040_s1_55 the dew shimmered over my shiny blue shell again 
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:289) Log-like per frame for utterance R040_s1_55 is -7.15013 over 398 frames.
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:main():gmm-latgen-faster.cc:176) Time taken 4.11909s: real-time factor assuming 100 frames/sec is 0.0188172
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:main():gmm-latgen-faster.cc:179) Done 55 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.145~1-b50a]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.20201 over 21890 frames.
+# Accounting: time=4 threads=1
+# Ended (code 0) at Tue Jan 29 14:28:26 CST 2019, elapsed time 4 seconds

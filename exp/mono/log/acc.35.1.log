@@ -1,0 +1,33 @@
+# gmm-acc-stats-ali exp/mono/35.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:gunzip -c exp/mono/ali.1.gz|" exp/mono/35.1.acc 
+# Started at Tue Jan 29 14:11:36 CST 2019
+#
+gmm-acc-stats-ali exp/mono/35.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:gunzip -c exp/mono/ali.1.gz|' exp/mono/35.1.acc 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split1/1/utt2spk scp:data/train/split1/1/cmvn.scp scp:data/train/split1/1/feats.scp ark:- 
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance R031_s1_50 avg. like is -76.7602 over 398 frames.
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R032_s1_35
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance R032_s1_46 avg. like is -80.0799 over 398 frames.
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance R033_s1_41 avg. like is -76.8534 over 398 frames.
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance R034_s1_36 avg. like is -83.5343 over 398 frames.
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance R035_s1_31 avg. like is -84.5956 over 398 frames.
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R036_s1_08
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R036_s1_10
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R036_s1_13
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R036_s1_15
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R036_s1_19
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R036_s1_29
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance R036_s1_32 avg. like is -78.0591 over 398 frames.
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R036_s1_36
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R036_s1_37
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R036_s1_38
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R036_s1_39
+WARNING (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:79) No alignment for utterance R036_s1_44
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:105) Processed 350 utterances; for utterance R037_s1_32 avg. like is -76.5165 over 398 frames.
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:105) Processed 400 utterances; for utterance R038_s1_27 avg. like is -73.4817 over 398 frames.
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:105) Processed 450 utterances; for utterance R039_s1_22 avg. like is -80.689 over 398 frames.
+LOG (apply-cmvn[5.5.145~1-b50a]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 495 utterances, errors on 0
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:112) Done 483 files, 12 with errors.
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -78.4724 over 192234 frames.
+LOG (gmm-acc-stats-ali[5.5.145~1-b50a]:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Jan 29 14:11:37 CST 2019, elapsed time 1 seconds
