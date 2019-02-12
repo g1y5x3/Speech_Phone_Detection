@@ -1,0 +1,1 @@
+xinput set-prop 13 "libinput Horizonal Scroll Enabled" 0
