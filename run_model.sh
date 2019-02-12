@@ -1,5 +1,5 @@
-export train_cmd=run.pl
-export decode_cmd=run.pl
+. ./path.sh || exit 1
+. ./cmd.sh || exit 1
 nj=1       # number of parallel jobs - 1 is perfect for such a small data set
 
 echo

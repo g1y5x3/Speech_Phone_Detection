@@ -1,7 +1,10 @@
 #!/bin/bash
+# Example
+# ./prep_data.sh <subjects file> <wave file dir> <sentence label file> <output dir>
 subjects=$1
 data_wav_dir=$2
-data_out_dir=$3
+label=$( cat $3 )
+data_out_dir=$4
 
 echo "Start preparing the data!"
 echo "Source file: $1"
@@ -21,7 +24,10 @@ for i in $( cat $subjects ); do
         utt_id=$i'_'$j
         utt_id=${utt_id%%.*}
         filename=`pwd`/$data_wav_dir/$i/$j
-        echo "$utt_id $filename" >> wav.scp
+        echo "$utt_id $filename" >> $data_out_dir/wav.scp
+        echo "$utt_id $label" >> $data_out_dir/text
+        echo "$utt_id $i" >> $data_out_dir/utt2spk
     done
-
 done
+
+echo "Successfully created files for $1!"
