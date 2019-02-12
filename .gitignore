@@ -1,0 +1,10 @@
+*.pdf
+.gitignore
+.ipynb_checkpoints/
+__pycache__/
+utils/__pycache__/
+hmmlearn_YG/
+Tutorial/
+exp/
+data/train
+data/test
