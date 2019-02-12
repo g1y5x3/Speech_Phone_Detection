@@ -8,3 +8,7 @@ Tutorial/
 exp/
 data/train
 data/test
+data/lang
+data/local/lang
+data/local/tmp
+data/local/dict/lexiconp.txt
