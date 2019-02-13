@@ -5,6 +5,7 @@ __pycache__/
 utils/__pycache__/
 hmmlearn_YG/
 Tutorial/
+
 exp/
 data/train
 data/test
@@ -12,3 +13,7 @@ data/lang
 data/local/lang
 data/local/tmp
 data/local/dict/lexiconp.txt
+mfcc/
+
+sub_train.txt
+sub_test.txt
