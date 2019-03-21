@@ -6,6 +6,7 @@ utils/__pycache__/
 hmmlearn_YG/
 Tutorial/
 
+ctm/
 exp/
 data/train
 data/test
@@ -17,3 +18,5 @@ mfcc/
 
 sub_train.txt
 sub_test.txt
+label_train.txt
+label_test.txt
